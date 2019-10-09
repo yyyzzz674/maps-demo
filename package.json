@@ -9,8 +9,11 @@
   },
   "dependencies": {
     "core-js": "^2.6.5",
+    "esri-loader": "^2.10.1",
+    "ol": "^6.0.1",
     "vue": "^2.6.10",
     "vue-router": "^3.0.3",
+    "vuelayers": "^0.11.9",
     "vuex": "^3.0.1"
   },
   "devDependencies": {

@@ -10,8 +10,23 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
       component: Home
+    },
+    {
+      path: '/openlayers',
+      component: () => import('./views/openlayers')
+    },
+    {
+      path: '/amap',
+      component: () => import('./views/amap')
+    },
+    {
+      path: '/vuelayers',
+      component: () => import('./views/vuelayers')
+    },
+    {
+      path: '/arcgis-api-for-js',
+      component: () => import('./views/arcgis-api-for-js')
     },
     {
       path: '/about',

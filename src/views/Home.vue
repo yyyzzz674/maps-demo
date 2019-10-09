@@ -1,18 +1,29 @@
 <template>
   <div class="home">
-    <img alt="Vue logo" src="../assets/logo.png" />
-    <HelloWorld msg="Welcome to Your Vue.js App" />
+    <li>
+      <router-link to="openlayers">openlayers</router-link>
+    </li>
+    <li>
+      <router-link to="vuelayers">vuelayers</router-link>
+    </li>
+    <li>
+      <router-link to="amap">高德地图api</router-link>
+    </li>
+    <li>
+      <router-link to="arcgis-api-for-js">ArcGIS API for JS</router-link>
+    </li>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import HelloWorld from '@/components/HelloWorld.vue'
 
 export default {
   name: 'Home',
-  components: {
-    HelloWorld
-  }
+  components: {}
 }
 </script>
+<style lang="stylus" scoped>
+li
+  list-style-type none
+</style>
