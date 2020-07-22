@@ -1,6 +1,6 @@
 <template>
   <div>
-    <map-drag class="mapbox" @drag="dragMap"></map-drag>
+    <map-drag class="mapbox"></map-drag>
   </div>
 </template>
 <script>
